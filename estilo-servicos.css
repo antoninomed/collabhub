@@ -19,14 +19,14 @@
 
 .cursos {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .curso {
-    margin: 0 3vw 0 3vw;
     background-color: #0000000d;
     text-align: left;
     padding-bottom: 2%;
+    max-width: 15vw;
 
 }
 .curso h4 {
@@ -84,4 +84,26 @@
 
 .btn-cont:hover{
     color:#04baca;
+}
+
+.typing-effect {
+    font-size: 24px;
+    display: inline-block;
+    border-right: 2px solid black; /* Cursor de digitação */
+    white-space: nowrap;
+    overflow: hidden; /* Esconde o texto não exibido */
+    width: 35ch; /* Defina a largura do texto */
+    animation: typing 2s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+/* Animação de digitação */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 40%; }
+}
+
+/* Animação do cursor piscante */
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
 }

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CollabHub</title>
     <link rel="stylesheet" href="estilo-contato.css">
+    <link rel="stylesheet" href="estilo-modal.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -40,8 +42,7 @@
                         </div>
                         <br>
                         <div class="localizacao">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117006.19344762363!2d-46.6324468!3d-23.588420700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1645131940995!5m2!1spt-BR!2sbr" width="300" height="250" style="border-radius:5px;" allowfullscreen="" loading="lazy"></iframe>
-                        </div>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7971.847513735154!2d-44.305581864654734!3d-2.531779021374441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f68ee2de64dab9%3A0x7d182615c038bf66!2sSenac!5e0!3m2!1spt-BR!2sbr!4v1715881931542!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                        </div>
                       </div>
                       <div class="screen-body-item">
                         <div class="app-form">
@@ -65,13 +66,31 @@
                       </div>
                     </div>
                   </div>
-                </div>
-
-                
+                </div> 
 
 
 
               </div>
+
+              <section id="section-modal">
+                <div id="loginModal" class="modal">
+                  <!-- Conteúdo do Modal -->
+                  <div class="modal-content">
+                      <span onclick="closemodal()" class="close">&times;</span>
+                      <form id="loginForm">
+                          <h2>Login</h2><br>
+                          <label for="username">Usuário</label>
+                          <input type="text" id="username" name="username" required>
+                          <label for="password">Senha</label>
+                          <input type="password" id="password" name="password" required>
+                          <button class="btn-entrar" type="submit">Entrar</button>
+                      </form>
+                      <p id="errorMessage" class="error-message"></p>
+        
+                  </div>
+              </div>
+        
+              </section>
               
             
         </main>
@@ -80,4 +99,5 @@
     </body>
 </html>
 <script src="script.js"></script>
+<script src="verificar.js"></script>
   

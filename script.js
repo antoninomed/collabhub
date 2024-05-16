@@ -4,7 +4,6 @@ fetch('header.html')
         document.getElementById('header-container').innerHTML = data;
     });
 
-
 function onMenuClick() {
     var navbar = document.getElementById("navigation-bar");
     var responsive_class_name = "responsive";
@@ -14,6 +13,11 @@ function onMenuClick() {
 
 function inicio(){
     window.location.href = "index.html";
+
+}
+
+function clickabout(){
+    window.location.href = "sobre.html";
 
 }
 
@@ -87,7 +91,7 @@ function clickmodal() {
 }
 
 // Quando o usuário clicar no <span> (x), fecha o modal
-function closemodal () {
+function closemodal() {
     modal.style.display = "none";
 }
 
