@@ -15,13 +15,11 @@
     />
   </head>
     
-    <body>
-        <header id="header-container">
-
-        </header>
-
-        <main class="container-cursos">
-          <br><br><br><br><br><br>
+    <body class="container-cursos"> 
+      <div style="text-align: left;">
+        <a class="btn-quit" href="index.html">&larr; Sair</a>  
+      </div>
+        <main>
           <div style="width: 100vw; justify-content: center; text-align: center;"></div><h2 class="typing-effect">Olá, selecione o setor do seu interesse. </h2><br>
           </div><br>
            <a class="btn-cont" onclick="clickadm()">Administrativo</a>
@@ -36,7 +34,7 @@
             <h3>Administrativo</h3><br>
 
             <div class="cursos">
-              <div class="curso"><img src="admin.jpg" alt=""><h4>Gestão de Documentos</h4><br>
+              <div class="curso"><img src="admin.jpg" alt=""><h4>Gestão de Documentos</h4>
                 <div class="desc-curso">
                   <i class="fa fa-clock-o" aria-hidden="true"></i><p>31 min.</p>
                 </div>
@@ -44,12 +42,12 @@
                 <div class="desc-curso">
                   <i class="fa fa-calendar" aria-hidden="true"></i><p>março/2024</p>
                 </div>
-                <button class="btn-curso">Acessar Instruções</button>
+                <button onclick="clickCurso('Gestão de Documentos')"class="btn-curso">Acessar Instruções</button>
 
               </div>
 
 
-              <div class="curso"><img src="admin.jpg" alt=""><h4>Gestão de Marketing</h4><br>
+              <div class="curso"><img src="admin.jpg" alt=""><h4>Gestão de Marketing</h4>
                 <div class="desc-curso">
                   <i class="fa fa-clock-o" aria-hidden="true"></i><p>31 min.</p>
                 </div>
@@ -57,13 +55,13 @@
                 <div class="desc-curso">
                   <i class="fa fa-calendar" aria-hidden="true"></i><p>março/2024</p>
                 </div>
-                <button class="btn-curso">Acessar Instruções</button>
+                <button onclick="clickCurso('Gestão de Marketing')" class="btn-curso">Acessar Instruções</button>
 
               </div>
 
               
               
-              <div class="curso"><img src="admin.jpg" alt=""><h4>Logística</h4><br><br>
+              <div class="curso"><img src="admin.jpg" alt=""><h4>Logística</h4>
                 <div class="desc-curso">
                   <i class="fa fa-clock-o" aria-hidden="true"></i><p>31 min.</p>
                 </div>
@@ -71,14 +69,14 @@
                 <div class="desc-curso">
                   <i class="fa fa-calendar" aria-hidden="true"></i><p>março/2024</p>
                 </div>
-                <button class="btn-curso">Acessar Instruções</button>
+                <button onclick="clickCurso('Logística')" class="btn-curso">Acessar Instruções</button>
 
               </div>
             
 
               
               
-              <div class="curso"><img src="admin.jpg" alt=""><h4>Planejamento Estratégico</h4><br>
+              <div class="curso"><img src="admin.jpg" alt=""><h4>Planejamento Estratégico</h4>
                 <div class="desc-curso">
                   <i class="fa fa-clock-o" aria-hidden="true"></i><p>31 min.</p>
                 </div>
@@ -86,7 +84,7 @@
                 <div class="desc-curso">
                   <i class="fa fa-calendar" aria-hidden="true"></i><p>março/2024</p>
                 </div>
-                <button class="btn-curso">Acessar Instruções</button>
+                <button onclick="clickCurso('Planejamento Estratégico')" class="btn-curso">Acessar Instruções</button>
 
               </div>
             </div><br>
@@ -104,7 +102,7 @@
 
             <div class="cursos">
 
-              <div class="curso"><img src="admin.jpg" alt=""><h4>Auditoria</h4><br><br>
+              <div class="curso"><img src="fin.jpg" alt=""><h4>Auditoria</h4>
                 <div class="desc-curso">
                   <i class="fa fa-clock-o" aria-hidden="true"></i><p>31 min.</p>
                 </div>
@@ -113,12 +111,12 @@
                   <i class="fa fa-calendar" aria-hidden="true"></i><p>março/2024</p>
                 </div>
 
-                <button class="btn-curso">Acessar Instruções</button>
+                <button onclick="clickCurso('Auditoria')" class="btn-curso">Acessar Instruções</button>
 
               </div>
 
 
-              <div class="curso"><img src="admin.jpg" alt=""><h4>Contador de Escritório</h4><br>
+              <div class="curso"><img src="fin.jpg" alt=""><h4>Contador de Escritório</h4>
                 <div class="desc-curso">
                   <i class="fa fa-clock-o" aria-hidden="true"></i><p>31 min.</p>
                 </div>
@@ -126,13 +124,13 @@
                 <div class="desc-curso">
                   <i class="fa fa-calendar" aria-hidden="true"></i><p>março/2024</p>
                 </div>
-                <button class="btn-curso">Acessar Instruções</button>
+                <button onclick="clickCurso('Contador de Escritório')" class="btn-curso">Acessar Instruções</button>
 
               </div>
 
               
               
-              <div class="curso"><img src="admin.jpg" alt=""><h4>Gerente Financeiro</h4><br><br>
+              <div class="curso"><img src="fin.jpg" alt=""><h4>Gerente Financeiro</h4>
                 <div class="desc-curso">
                   <i class="fa fa-clock-o" aria-hidden="true"></i><p>31 min.</p>
                 </div>
@@ -140,14 +138,14 @@
                 <div class="desc-curso">
                   <i class="fa fa-calendar" aria-hidden="true"></i><p>março/2024</p>
                 </div>
-                <button class="btn-curso">Acessar Instruções</button>
+                <button onclick="clickCurso('Gerente Financeiro')" class="btn-curso">Acessar Instruções</button>
 
               </div>
             
 
               
               
-              <div class="curso"><img src="admin.jpg" alt=""><h4>Planejador Financeiro</h4><br>
+              <div class="curso"><img src="fin.jpg" alt=""><h4>Planejador Financeiro</h4>
                 <div class="desc-curso">
                   <i class="fa fa-clock-o" aria-hidden="true"></i><p>31 min.</p>
                 </div>
@@ -155,11 +153,11 @@
                 <div class="desc-curso">
                   <i class="fa fa-calendar" aria-hidden="true"></i><p>março/2024</p>
                 </div>
-                <button class="btn-curso">Acessar Instruções</button>
+                <button onclick="clickCurso('Planejador Financeiro')" class="btn-curso">Acessar Instruções</button>
 
               </div>
 
-              <div class="curso"><img src="admin.jpg" alt=""><h4>Tesouraria</h4><br><br>
+              <div class="curso"><img src="fin.jpg" alt=""><h4>Tesouraria</h4>
                 <div class="desc-curso">
                   <i class="fa fa-clock-o" aria-hidden="true"></i><p>31 min.</p>
                 </div>
@@ -167,7 +165,7 @@
                 <div class="desc-curso">
                   <i class="fa fa-calendar" aria-hidden="true"></i><p>março/2024</p>
                 </div>
-                <button class="btn-curso">Acessar Instruções</button>
+                <button onclick="clickCurso('Tesouraria')" class="btn-curso">Acessar Instruções</button>
 
               </div>
 
@@ -184,7 +182,7 @@
 
             <div class="cursos">
 
-              <div class="curso"><img src="admin.jpg" alt=""><h4>Introdução Recursos Humanos</h4>
+              <div class="curso"><img src="rh.jpg" alt=""><h4>Introdução Recursos Humanos</h4>
                 <div class="desc-curso">
                   <i class="fa fa-clock-o" aria-hidden="true"></i><p>31 min.</p>
                 </div>
@@ -192,12 +190,12 @@
                 <div class="desc-curso">
                   <i class="fa fa-calendar" aria-hidden="true"></i><p>março/2024</p>
                 </div>
-                <button class="btn-curso">Acessar Instruções</button>
+                <button onclick="clickCurso('Introdução Recursos Humanos')" class="btn-curso">Acessar Instruções</button>
 
               </div>
 
 
-              <div class="curso"><img src="admin.jpg" alt=""><h4>Como um aprendiz contribui no RH</h4><br>
+              <div class="curso"><img src="rh.jpg" alt=""><h4>Como um aprendiz contribui no RH</h4>
                 <div class="desc-curso">
                   <i class="fa fa-clock-o" aria-hidden="true"></i><p>31 min.</p>
                 </div>
@@ -205,13 +203,13 @@
                 <div class="desc-curso">
                   <i class="fa fa-calendar" aria-hidden="true"></i><p>março/2024</p>
                 </div>
-                <button class="btn-curso">Acessar Instruções</button>
+                <button onclick="clickCurso('Como um aprendiz contribui no RH')" class="btn-curso">Acessar Instruções</button>
 
               </div>
 
               
               
-              <div class="curso"><img src="admin.jpg" alt=""><h4>Recrutamento e Seleção</h4><br>
+              <div class="curso"><img src="rh.jpg" alt=""><h4>Recrutamento e Seleção</h4><br>
                 <div class="desc-curso">
                   <i class="fa fa-clock-o" aria-hidden="true"></i><p>31 min.</p>
                 </div>
@@ -219,7 +217,7 @@
                 <div class="desc-curso">
                   <i class="fa fa-calendar" aria-hidden="true"></i><p>março/2024</p>
                 </div>
-                <button class="btn-curso">Acessar Instruções</button>
+                <button onclick="clickCurso('Recrutamento e Seleção')" class="btn-curso">Acessar Instruções</button>
 
               </div>
             
@@ -237,7 +235,7 @@
 
             <div class="cursos">
 
-              <div class="curso"><img src="admin.jpg" alt=""><h4>Como se portar ao atender o cliente</h4><br>
+              <div class="curso"><img src="venda.jpg" alt=""><h4>Como se portar ao atender o cliente</h4><br>
                 <div class="desc-curso">
                   <i class="fa fa-clock-o" aria-hidden="true"></i><p>31 min.</p>
                 </div>
@@ -245,12 +243,12 @@
                 <div class="desc-curso">
                   <i class="fa fa-calendar" aria-hidden="true"></i><p>março/2024</p>
                 </div>
-                <button class="btn-curso">Acessar Instruções</button>
+                <button onclick="clickCurso('Como se portar ao atender o cliente')" class="btn-curso">Acessar Instruções</button>
 
               </div>
 
 
-              <div class="curso"><img src="admin.jpg" alt=""><h4>Como se comportar diante do cliente operando o caixa</h4>
+              <div class="curso"><img src="venda.jpg" alt=""><h4>Como se comportar diante do cliente operando o caixa</h4>
                 <div class="desc-curso">
                   <i class="fa fa-clock-o" aria-hidden="true"></i><p>31 min.</p>
                 </div>
@@ -258,13 +256,13 @@
                 <div class="desc-curso">
                   <i class="fa fa-calendar" aria-hidden="true"></i><p>março/2024</p>
                 </div>
-                <button class="btn-curso">Acessar Instruções</button>
+                <button onclick="clickCurso('Como se comportar diante do cliente operando o caixa')" class="btn-curso">Acessar Instruções</button>
 
               </div>
 
               
               
-              <div class="curso"><img src="admin.jpg" alt=""><h4>Treinamento Operacional</h4><br>
+              <div class="curso"><img src="venda.jpg" alt=""><h4>Treinamento Operacional</h4><br><br>
                 <div class="desc-curso">
                   <i class="fa fa-clock-o" aria-hidden="true"></i><p>31 min.</p>
                 </div>
@@ -272,25 +270,11 @@
                 <div class="desc-curso">
                   <i class="fa fa-calendar" aria-hidden="true"></i><p>março/2024</p>
                 </div>
-                <button class="btn-curso">Acessar Instruções</button>
+                <button onclick="clickCurso('Treinamento Operacional')" class="btn-curso">Acessar Instruções</button>
 
               </div>
             
-
-              
-              
-              <div class="curso"><img src="admin.jpg" alt=""><h4>Planejamento Estratégico</h4><br>
-                <div class="desc-curso">
-                  <i class="fa fa-clock-o" aria-hidden="true"></i><p>31 min.</p>
-                </div>
-              
-                <div class="desc-curso">
-                  <i class="fa fa-calendar" aria-hidden="true"></i><p>março/2024</p>
-                </div>
-                <button class="btn-curso">Acessar Instruções</button>
-
-              </div>
-            </div>
+             </div>
 
             </div>
 
@@ -307,5 +291,5 @@
     
     </body>
 </html>
-<script src="script.js"></script>
+<script src="servicos.js"></script>
   
