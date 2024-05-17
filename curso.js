@@ -450,6 +450,34 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
         case 'Como se comportar diante do cliente operando o caixa':
             link_video.src = "https://drive.google.com/file/d/1eq6RSm479lj2IEtiVQkhBfZYlcWuFqTI/preview";
+            for (i = 1; i < 5; i++) {
+
+                novoH3[i] = document.createElement('h3');
+    
+                // Cria um novo elemento p
+                novoP[i] = document.createElement('p');
+    
+                // Encontra o contêiner onde os elementos serão adicionados
+                const container = document.getElementById('titulo-texto');
+    
+                // Adiciona o h3 e o p ao contêiner
+                container.appendChild(novoH3[i]);
+                container.appendChild(novoP[i]);
+                
+              }             
+
+              novoH3[1].textContent = `Sorria e seja educado com os clientes que passarem pelo caixa`;
+              novoP[1].textContent = `Se você estiver tendo um dia tenso, deixe os problemas em casa e seja educado no expediente, mesmo que os clientes não sejam. Sorria e cumprimente cada pessoa que passar pelo caixa. Não precisa forçar a barra, mas o cliente vai sair bem mais contente do mercado ou da loja se você for gentil.`;
+
+              novoH3[2].textContent = `Peça ajuda se houver mais de seis ou sete pessoas na fila`;
+              novoP[2].textContent = `A maioria dos supermercados e lojas tem um protocolo específico para quando a fila de um caixa fica longa demais. Se acontecer com você, peça ajuda ao gerente ou a a outro caixa e não tente atender a todos depressa. Por exemplo: diga algo como "Preciso de ajuda no caixa 'x'. Alguém pode abrir outro caixa?"`;
+
+              novoH3[3].textContent = `Não fique conversando com colegas quando houver pessoas esperando atendimento.`;
+              novoP[3].textContent = `Nenhum cliente gosta de ser atendido quando o caixa conversa pelos cotovelos com outros funcionários. Lembre-se de que você está no trabalho e não é certo ficar de papo furado por ai. Deixe para conversar quando for adequado. Ainda assim, você pode conversar com os colegas quando não houver clientes na fila ou durante os intervalos. Seja sempre profissional e evite falar de assuntos polêmicos ou tensos. Não reclame dos clientes enquanto você estiver no mercado ou na loja.`;
+
+              novoH3[4].textContent = `Mantenha a calma e o profissionalismo e ajude até os clientes irritados.`;
+              novoP[4].textContent = `Você certamente vai se deparar com clientes que querem devolver um produto com o qual estão insatisfeitos ou que estão de mau humor. Uma da suas funções nessa hora é manter a calma, ajudar a resolver o problema e não perder a compostura. Por exemplo: não custa dizer "Pedimos desculpas pelo inconveniente". Chame o gerente se a situação sair do controle (se o cliente ficar cada vez mais bravo e até fazer cena). Ele vai estar mais preparado para resolver tudo.`;
+
             break;
 
 
@@ -462,9 +490,45 @@ document.addEventListener('DOMContentLoaded', (event) => {
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
             resumo.textContent=`Um bom atendimento ao cliente busca otimizar o valor e a imagem da marca, buscando caminhos para reter, fidelizar e encantar os consumidores que interagem com a marca.
-
             Como consequência, os clientes satisfeitos, além de comprarem novamente, tendem a atuar como promotores da marca, indicando seus produtos e serviços para amigos e familiares.`
-            
+            for (i = 1; i < 2; i++) {
+
+                novoH3[i] = document.createElement('h3');
+    
+                // Encontra o contêiner onde os elementos serão adicionados
+                const container = document.getElementById('titulo-texto');
+    
+                // Adiciona o h3 e o p ao contêiner
+                container.appendChild(novoH3[i]);
+                
+              }             
+
+              novoH3[1].textContent = `As 15 mais importantes dicas para um bom atendimento ao cliente:`;
+              for (j = 1; j < 16; j++){
+                novoP[j] = document.createElement('p');
+
+                const container = document.getElementById('titulo-texto');
+    
+                // Adiciona o h3 e o p ao contêiner
+                container.appendChild(novoP[j]);
+
+              }
+              novoP[1].textContent = `1. Estude a jornada do consumidor;`;
+              novoP[2].textContent = `2. Valorize cada cliente, seja ele pequeno ou grande; `;
+              novoP[3].textContent = `3. Mantenha a transparência e a sinceridade sobre o que consegue fazer;`;
+              novoP[4].textContent = `4. Ofereça um ambiente confortável;`;
+              novoP[5].textContent = `5. Fale a língua do cliente;`;
+              novoP[6].textContent = `6. Construa memórias positivas;`;
+              novoP[7].textContent = `7. Invista na fidelização de clientes;`;
+              novoP[8].textContent = `8. Priorize o atendimento humanizado e sensível ao cliente`;
+              novoP[9].textContent = `9. Esteja disponível e não deixe o cliente esperando;`;
+              novoP[10].textContent = `10. Tenha organização e registre tudo;`;
+              novoP[11].textContent = `11. Antecipe o contato e faça o atendimento pós-venda;`;
+              novoP[12].textContent = `12. Estabeleça limites e não se sacrifique;`;
+              novoP[13].textContent = `13. Desenvolva sua equipe de atendimento;`;
+              novoP[14].textContent = `14. Acompanhe resultados;`;
+              novoP[15].textContent = `15. Aprenda com os seus erros (mas evite repeti-los).`;
+
             break;
 
         default:
