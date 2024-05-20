@@ -484,8 +484,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
         case 'Treinamento Operacional':
-            link_video.src = "https://drive.google.com/file/d/1CczYSkYcWRWjVlJnVHewAfhNaoJ_L_o6/preview";
-            link_video2.src = "https://drive.google.com/file/d/1-IG9FKP2TSMGzwJnOWwkOLuyk1mAChah/preview"
+            
+            link_video.src = "https://drive.google.com/file/d/1-IG9FKP2TSMGzwJnOWwkOLuyk1mAChah/preview";
+            link_video2.src = "https://drive.google.com/file/d/1CczYSkYcWRWjVlJnVHewAfhNaoJ_L_o6/preview";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
@@ -535,7 +536,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     }
 
-    if (link_video2.src!="https://drive.google.com/file/d/1-IG9FKP2TSMGzwJnOWwkOLuyk1mAChah/preview"){
+    if (link_video2.src!="https://drive.google.com/file/d/1CczYSkYcWRWjVlJnVHewAfhNaoJ_L_o6/preview"){
         video2.style.display = 'none';
     }
 

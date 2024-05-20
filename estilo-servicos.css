@@ -122,3 +122,18 @@
     from, to { border-color: transparent; }
     50% { border-color: white; }
 }
+
+.estrelas input[type=radio] {
+    display: none;
+  }
+  .estrelas label i.fa:before {
+    content:'\f005';
+    color: #FC0;
+  }
+  .estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #FC0;
+  }
+
+.estrelas {
+    text-align:center;
+}
