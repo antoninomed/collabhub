@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         //ADM--------------------------------
 
         case 'Gestão de Documentos':
-            link_video.src = "https://drive.google.com/file/d/1HBYyowxnJo3UexoQHiGkYJQJAcF7yO4p/preview";
+            link_video.src = "https://drive.google.com/file/d/1MfyEYMSjf85E-iiQqcPX870u8C8gohgu/preview";
             
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             break;
 
         case 'Gestão de Marketing':
-            link_video.src = "https://drive.google.com/file/d/11RAubEBzdaM1LCIr0EKT_DfCgUG3bLgT/preview";
+            link_video.src = "https://drive.google.com/file/d/1_tqq_XRXY44MgEANz_zrDrBrMd6sRao3/preview"";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
         case 'Planejamento Estratégico':
-            link_video.src = "https://drive.google.com/file/d/1qT4Fl9KwZggHjDoBw2JepnxH3vIXnPD9/preview";
+            link_video.src = "https://drive.google.com/file/d/1fvuYDMUW4BKBDnvYg2k0SsDN4XHJQsMP/preview";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
         case 'Logística':
-            link_video.src = "https://drive.google.com/file/d/1kpQSHvQkkz1WuSZ3_vUfwMKf4BNtYEzU/preview";
+            link_video.src = "https://drive.google.com/file/d/1kWZf_mKvt6lYgrjfWd6x0b8CQkJq0aSJ/preview";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
         case 'Tesouraria':
-            link_video.src = "https://drive.google.com/file/d/1Vst0O3e-V7b5CAnj-DK67CQ0DSVjrvy7/preview";
+            link_video.src = "https://drive.google.com/file/d/1QFeCEsuKd7qGuE_fkTNW138Tt78ChWEN/preview";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
@@ -204,7 +204,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
             
         case 'Planejador Financeiro':
-            link_video.src = "https://drive.google.com/file/d/1YU-UlRX1w0yRiVCsBZ0MNRaDhHPo5IEO/preview";
+            link_video.src = "https://drive.google.com/file/d/1ztk1Lki-iv2hSfTsdbImqcbdKHRsEJ-Z/preview";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             
 
         case 'Gerente Financeiro':
-            link_video.src = "https://drive.google.com/file/d/1iZMvb75BwKx8of8WJbho2mA6LlEeOIfx/preview";
+            link_video.src = "https://drive.google.com/file/d/1N8EzbngUoXU_1njFYJ64adpsbZHDa3eA/preview";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
@@ -234,7 +234,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             break;
 
         case 'Auditoria':
-            link_video.src = "https://drive.google.com/file/d/1XpL2cyT4IKHmr2DxYJpU6BynoxkWvO1a/preview";
+            link_video.src = "https://drive.google.com/file/d/1B8mjuXCzC6EoKCmgb45LSCKGY0XTqiWs/preview";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         //RH--------------------------------
 
         case 'Recrutamento e Seleção':
-            link_video.src = "https://drive.google.com/file/d/1gqq7E15OHdlYDwfqOAZ587McStxUs-dO/preview";
+            link_video.src = "https://drive.google.com/file/d/1GSTjsj-pFAmohox2Gk3cuJLXM4Uoft6M/preview";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
@@ -297,7 +297,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
         case 'Introdução Recursos Humanos':
-            link_video.src = "https://drive.google.com/file/d/15dZLJJip_KZW8HgwGMEJJYJVnRKiSK-r/preview";
+            link_video.src = "https://drive.google.com/file/d/1QEsx6udOn60X9_7RUxjpKTXfcY7DZvYg/preview";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
         case 'Como um aprendiz contribui no RH':
-            link_video.src = "https://drive.google.com/file/d/1mv-S36VnuOUwdNEzzcuudPJJO4iaGpKB/preview";
+            link_video.src = "https://drive.google.com/file/d/1ybooEZcC-whC0lgqmY5kXUPCGIrmqYH1/preview";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
@@ -395,7 +395,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         //VENDAS--------------------------------
 
         case 'Como se portar ao atender o cliente':
-            link_video.src = "https://drive.google.com/file/d/1l0HAhf4T3DGSrgfZySdJjfiYQqYozXJd/preview";
+            link_video.src = "https://drive.google.com/file/d/1bMSfzZJpZoeTuYQQxGkoCEnFSKbhTgCz/preview";
             for (i = 1; i < 11; i++) {
 
                 novoH3[i] = document.createElement('h3');
@@ -449,7 +449,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
         case 'Como se comportar diante do cliente operando o caixa':
-            link_video.src = "https://drive.google.com/file/d/1eq6RSm479lj2IEtiVQkhBfZYlcWuFqTI/preview";
+            link_video.src = "https://drive.google.com/file/d/1BBfjSTlyLUYaDiVrG8AzIfXQNppEg76l/preview";
             for (i = 1; i < 5; i++) {
 
                 novoH3[i] = document.createElement('h3');
@@ -485,8 +485,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
         case 'Treinamento Operacional':
             
-            link_video.src = "https://drive.google.com/file/d/1-IG9FKP2TSMGzwJnOWwkOLuyk1mAChah/preview";
-            link_video2.src = "https://drive.google.com/file/d/1CczYSkYcWRWjVlJnVHewAfhNaoJ_L_o6/preview";
+            link_video.src = "https://drive.google.com/file/d/1-NJg9i3dxe3yO3cT3RNqV7Nu81RJsCbp/preview";
+            link_video2.src = "https://drive.google.com/file/d/1zItRYv_bB2xXLWbWhl-qwWCv5hAVT-WW/preview";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
@@ -536,7 +536,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     }
 
-    if (link_video2.src!="https://drive.google.com/file/d/1CczYSkYcWRWjVlJnVHewAfhNaoJ_L_o6/preview"){
+    if (link_video2.src!="https://drive.google.com/file/d/1zItRYv_bB2xXLWbWhl-qwWCv5hAVT-WW/preview"){
         video2.style.display = 'none';
     }
 
