@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             break;
 
         case 'Gestão de Marketing':
-            link_video.src = "https://drive.google.com/file/d/1_tqq_XRXY44MgEANz_zrDrBrMd6sRao3/preview"";
+            link_video.src = "https://drive.google.com/file/d/1_tqq_XRXY44MgEANz_zrDrBrMd6sRao3/preview";
             resumo = document.createElement('p')
             container = document.getElementById('titulo-texto')
             container.appendChild(resumo);
